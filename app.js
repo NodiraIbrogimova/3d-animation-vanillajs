@@ -15,10 +15,11 @@ container.addEventListener('mousemove', (e) => {
 container.addEventListener('mouseenter', (e) => {
     card.style.transition = 'none';
     title.style.transform = 'translateZ(150px)';
-    pillow.style.transform = 'translateZ(200px) rotateZ(-45deg)';
+    pillow.style.transform = 'translateZ(200px) rotateZ(-5deg)';
     description.style.transform = 'translateZ(125px)';
     sizes.style.transform = 'translateZ(100px)';
     purchase.style.transform = 'translateZ(75px)';
+    purchase.style.boxShadow = '2px 2px 2px rgba(0,0,0, .2)';
 });
 
 container.addEventListener('mouseleave', (e) => {
