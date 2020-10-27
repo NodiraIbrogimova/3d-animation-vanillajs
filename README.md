@@ -5,7 +5,7 @@ In the following project you can play with an animated card to see changes on se
 - mouseenter
 
 and 
-- mousenter
+- mouseleave
 
 
 <img width="1436" alt="before-mousemove" src="https://user-images.githubusercontent.com/11291840/97200811-80b7ce80-17d3-11eb-932d-2d8c9cfe209b.png">
